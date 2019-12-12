@@ -21,13 +21,6 @@ $ git init
 $ git add README.md
 $ git commit -m "first commit"
 >
-*** 请告诉我你是谁。
->
-运行
->
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
->
 来设置您账号的缺省身份标识。
 如果仅在本仓库设置身份标识，则省略 --global 参数。
 fatal: empty ident name (for <(null)>) not allowed
@@ -45,11 +38,6 @@ $ git push -u origin master
 >
 Username for 'https://github.com': RedBlueAlliance
 Password for 'https://RedBlueAlliance@github.com':
-对象计数中: 3, 完成.
-写入对象中: 100% (3/3), 241 bytes | 0 bytes/s, 完成.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/RedBlueAlliance/Jekyll_test.github.io.git
- * [new branch]      master -> master
 分支 master 设置为跟踪来自 origin 的远程分支 master。
 
 $ git add .
@@ -57,7 +45,7 @@ $ git commit -m "first commit"
 >
 [master 1ddf0ba] first commit
  32 files changed, 3485 insertions(+)
- 
+
 $ git push -u origin master
 >
 Username for 'https://github.com': RedBlueAlliance
